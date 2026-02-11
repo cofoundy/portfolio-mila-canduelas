@@ -14,7 +14,7 @@ const Who: FC = () => {
           data-scroll
           data-scroll-speed="2"
           className="w-[200px] h-[200px] md:w-[225px] md:h-[225px] rounded-full object-cover border-2 border-[#C4935A]/30"
-          src="/profile.jpg"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/profile.jpg`}
           alt="Mila Canduelas - Visual Artist"
           width={225}
           height={225}

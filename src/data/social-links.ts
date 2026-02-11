@@ -1,32 +1,34 @@
+const bp = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export const SOCIAL_LINKS = [
   {
     title: "Email",
-    icon: "/email.svg",
+    icon: `${bp}/email.svg`,
     link: "mailto:warmipakunkaart@outlook.com",
   },
   {
     title: "Website",
-    icon: "/website.svg",
+    icon: `${bp}/website.svg`,
     link: "https://warmipakunk.art/",
   },
   {
     title: "Instagram",
-    icon: "/instagram.svg",
+    icon: `${bp}/instagram.svg`,
     link: "https://www.instagram.com/warmipa_kunkan_art/",
   },
   {
     title: "Pinterest",
-    icon: "/pinterest.svg",
+    icon: `${bp}/pinterest.svg`,
     link: "https://www.pinterest.co.uk/milagroscanduel/",
   },
   {
     title: "Saatchi Art",
-    icon: "/saatchi.svg",
+    icon: `${bp}/saatchi.svg`,
     link: "https://www.saatchiart.com/account/profile/2443543",
   },
   {
     title: "LinkedIn",
-    icon: "/linkedin.svg",
+    icon: `${bp}/linkedin.svg`,
     link: "https://www.linkedin.com/in/mila-canduelas-rios-085661a3/",
   },
 ];

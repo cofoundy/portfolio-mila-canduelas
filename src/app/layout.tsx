@@ -10,21 +10,21 @@ export const metadata: Metadata = {
   description:
     "Peruvian visual artist based in Cardiff, Wales. Painting, sculpture, weaving, encaustic, cyanotype. Inspired by ancestral knowledge and Mother Nature.",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/portfolio-mila-canduelas/favicon.svg",
   },
   openGraph: {
     type: "website",
     title: "Mila Canduelas | Visual Artist",
     description:
       "Peruvian visual artist based in Cardiff, Wales. Inspired by ancestral knowledge and Mother Nature.",
-    images: ["/profile.jpg"],
+    images: ["/portfolio-mila-canduelas/profile.jpg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Mila Canduelas | Visual Artist",
     description:
       "Peruvian visual artist based in Cardiff, Wales. Inspired by ancestral knowledge and Mother Nature.",
-    images: ["/profile.jpg"],
+    images: ["/portfolio-mila-canduelas/profile.jpg"],
   },
 };
 

@@ -4,12 +4,17 @@ const withAnalyzer = require("@next/bundle-analyzer")({
 });
 
 /** @type {import('next').NextConfig} */
+const BASE_PATH = '/portfolio-mila-canduelas';
+
 const nextConfig = {
   output: 'export',
-  basePath: '/portfolio-mila-canduelas',
-  assetPrefix: '/portfolio-mila-canduelas/',
+  basePath: BASE_PATH,
+  assetPrefix: `${BASE_PATH}/`,
   trailingSlash: true,
   reactStrictMode: true,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: BASE_PATH,
+  },
   images: {
     unoptimized: true,
     remotePatterns: [
