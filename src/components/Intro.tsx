@@ -17,9 +17,9 @@ const Intro: FC = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: [0, 1, 1, 0] }}
           transition={{ duration: 2.5, times: [0, 0.2, 0.6, 1] }}
-          className="text-6xl md:text-8xl lg:text-9xl font-bold text-transparent absolute inset-0"
+          className="text-5xl md:text-7xl lg:text-9xl font-bold text-transparent absolute inset-0"
           style={{
-            WebkitTextStroke: '2px white',
+            WebkitTextStroke: '2px #C4935A',
           }}
         >
           Mila
@@ -29,18 +29,19 @@ const Intro: FC = () => {
           initial={{ opacity: 0, filter: 'blur(20px)' }}
           animate={{ opacity: 1, filter: 'blur(0px)' }}
           transition={{ duration: 1.0, delay: 0.8, ease: 'easeOut' }}
-          className="text-6xl md:text-8xl lg:text-9xl font-bold text-white"
+          className="text-5xl md:text-7xl lg:text-9xl font-bold text-white"
         >
           Mila
         </m.h1>
       </div>
+
       <m.p
         data-scroll
         data-scroll-speed="1"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 1.8 }}
-        className="text-xl md:text-3xl text-center z-[1] overflow-hidden text-gray-300"
+        className="text-lg md:text-2xl text-center z-[1] overflow-hidden text-gray-300 px-4"
       >
         <m.span
           initial={{ width: 0 }}
@@ -48,8 +49,17 @@ const Intro: FC = () => {
           transition={{ duration: 0.8, delay: 2.2 }}
           className="inline-block overflow-hidden whitespace-nowrap"
         >
-          Visual Artist · Ancestral Inspiration
+          Visual Artist · Artista Visual
         </m.span>
+      </m.p>
+
+      <m.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 2.8 }}
+        className="text-sm md:text-base text-center z-[1] text-[#C4935A] tracking-widest uppercase px-4"
+      >
+        Cardiff, Wales · From Peru
       </m.p>
 
       <m.a
@@ -63,7 +73,7 @@ const Intro: FC = () => {
         href="#who"
         data-scroll-to
       >
-        <BiChevronsDown className="animate-bounce" size={56} />
+        <BiChevronsDown className="animate-bounce text-[#C4935A]" size={56} />
       </m.a>
     </div>
   );

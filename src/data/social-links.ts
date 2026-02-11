@@ -17,11 +17,16 @@ export const SOCIAL_LINKS = [
   {
     title: "Pinterest",
     icon: "/pinterest.svg",
-    link: "https://uk.pinterest.com/WarmiArtist/",
+    link: "https://www.pinterest.co.uk/milagroscanduel/",
+  },
+  {
+    title: "Saatchi Art",
+    icon: "/saatchi.svg",
+    link: "https://www.saatchiart.com/account/profile/2443543",
   },
   {
     title: "LinkedIn",
     icon: "/linkedin.svg",
-    link: "https://www.linkedin.com/in/mila-canduelas-rios/",
+    link: "https://www.linkedin.com/in/mila-canduelas-rios-085661a3/",
   },
 ];

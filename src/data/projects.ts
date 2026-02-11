@@ -3,44 +3,54 @@ export const PROJECTS = [
     id: "exhibition-1",
     title: "Turner House Open Exhibition 2025",
     description:
-      "Selected artist for the prestigious Turner House Open Exhibition 2025 in Penarth, Wales. Showcasing works inspired by Peruvian ancestral symbolism and connection to nature.",
-    demo: "https://warmipakunk.art/",
-    technologies: ["painting", "mixed-media"],
-    image: {
-      url: "/projects/turner-house.jpg",
-    },
+      "Selected for the prestigious Turner House Open Exhibition in Penarth, Wales. Exhibited 'Forced Sterilisations, Justice and Reparation, Peru 1990' — a powerful soft pastel on cardboard work (82×58cm) addressing historical injustices in Peru.",
+    demo: "https://turnerhouse.wales/open25/",
+    technologies: ["soft pastel", "social art"],
+    image: "/artwork/turner-house-2025.jpg",
   },
   {
     id: "exhibition-2",
-    title: "Made in Roath Open 2024",
+    title: "Cardiff Made Winter Exhibition 2024",
     description:
-      "Annual community arts festival in Cardiff. Exhibited a series exploring the spiritual relationship between humans and the natural world through encaustic and cyanotype techniques.",
-    demo: "https://warmipakunk.art/",
-    technologies: ["encaustic", "cyanotype"],
-    image: {
-      url: "/projects/made-in-roath.jpg",
-    },
+      "Second consecutive year at Cardiff Made Gallery's Winter Arts & Crafts Exhibition. Showcased 'Ceramica Peruana Moche' and 'Cosmovision' — watercolour and ink pieces bridging pre-Columbian craft traditions with contemporary expression.",
+    demo: "https://cardiffmade.com/",
+    technologies: ["watercolour", "ink", "ceramics"],
+    image: "/artwork/cardiff-made-2024.jpg",
   },
   {
     id: "exhibition-3",
-    title: "Jacob's Art Gallery - Fusion Exhibition 2023",
+    title: "Made in Roath Open 2024",
     description:
-      "Group exhibition featuring emerging Welsh artists. My contribution explored the fusion of contemporary artistic expression with ancient Peruvian visual traditions.",
-    demo: "https://warmipakunk.art/",
-    technologies: ["sculpture", "weaving"],
-    image: {
-      url: "/projects/jacobs-gallery.jpg",
-    },
+      "Annual community arts festival in Cardiff. Exhibited a series exploring the spiritual relationship between humans and the natural world through encaustic and cyanotype techniques — ancient processes meeting contemporary themes.",
+    demo: "https://madeinroath.com/",
+    technologies: ["encaustic", "cyanotype"],
+    image: "/artwork/made-in-roath-2024.jpg",
   },
   {
     id: "exhibition-4",
-    title: "Lansio Degree Show - Cardiff Met 2023",
+    title: "G39 OPEN Exhibition 2024",
     description:
-      "BA Fine Art graduation exhibition at Cardiff Metropolitan University. A culmination of three years exploring identity, heritage, and the voice of indigenous cultures through diverse media.",
+      "Selected for the G39 OPEN at one of Cardiff's most important contemporary art spaces. A juried exhibition showcasing emerging and established artists working across all media in Wales.",
+    demo: "https://g39.org/",
+    technologies: ["mixed media"],
+    image: "/artwork/g39-open-2024.jpg",
+  },
+  {
+    id: "exhibition-5",
+    title: "Jacob's Art Gallery — Fusion Exhibition 2023",
+    description:
+      "Group exhibition featuring emerging Welsh artists. Explored the fusion of contemporary artistic expression with ancient Peruvian visual traditions through sculpture and textile weaving.",
     demo: "https://warmipakunk.art/",
-    technologies: ["painting", "sculpture", "drawing"],
-    image: {
-      url: "/projects/degree-show.jpg",
-    },
+    technologies: ["sculpture", "weaving"],
+    image: "/artwork/jacobs-fusion-2023.jpg",
+  },
+  {
+    id: "exhibition-6",
+    title: "Lansio Degree Show — Cardiff Met 2023",
+    description:
+      "BA Fine Art graduation exhibition at Cardiff Metropolitan University. Presented a powerful installation addressing the Peru political crisis and protest deaths — three years of artistic exploration culminating in a deeply personal statement on identity, heritage, and indigenous voices.",
+    demo: "https://warmipakunk.art/",
+    technologies: ["installation", "painting", "sculpture"],
+    image: "/artwork/degree-show-2023.jpg",
   },
 ];

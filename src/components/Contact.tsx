@@ -16,14 +16,18 @@ const Contact: FC = () => {
         className="flex justify-center mx-[5vw] mt-8"
       >
         <div className="w-full max-w-[600px] text-center">
-          <p className="text-lg mb-8 text-gray-400">
-            I'm always open to discussing new commissions, exhibition opportunities,
-            collaborations, or simply connecting with fellow art enthusiasts.
+          <p className="text-lg mb-4 text-gray-400">
+            Open to commissions, exhibition opportunities, collaborations,
+            and connecting with fellow art enthusiasts.
+          </p>
+          <p className="text-sm mb-8 text-gray-500 italic">
+            Abierta a encargos, oportunidades de exposición, colaboraciones
+            y conexiones con amantes del arte.
           </p>
 
           <a
             href="mailto:warmipakunkaart@outlook.com"
-            className="inline-flex items-center gap-3 px-8 py-4 bg-[#4A6B7C] hover:bg-[#5A7B8C] text-white rounded-lg transition duration-300 mb-12 text-lg font-medium"
+            className="inline-flex items-center gap-3 px-8 py-4 bg-[#C4935A] hover:bg-[#D4A36A] text-white rounded-lg transition duration-300 mb-12 text-lg font-medium"
           >
             <svg
               width="24"
@@ -59,12 +63,12 @@ const Contact: FC = () => {
                   href={item.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex flex-col items-center gap-2 hover:bg-slate-900 p-4 rounded-lg transition duration-300 min-w-[100px]"
+                  className="flex flex-col items-center gap-2 hover:bg-slate-900 p-4 rounded-lg transition duration-300 min-w-[90px]"
                 >
                   <Image
                     className="w-[40px] h-[40px] rounded-full"
                     src={item.icon}
-                    alt={`${item.title} social media icon`}
+                    alt={`${item.title}`}
                     width={40}
                     height={40}
                   />

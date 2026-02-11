@@ -28,7 +28,7 @@ const Skills: FC = () => {
             key={skill}
             data-scroll
             data-scroll-speed={index % 2 === 0 ? "0.5" : "-0.5"}
-            className="px-5 py-3 border border-gray-600 rounded-full text-gray-200 hover:bg-white/10 hover:border-[#4A6B7C] transition duration-300 cursor-default"
+            className="px-5 py-3 border border-gray-600 rounded-full text-gray-200 hover:bg-[#C4935A]/10 hover:border-[#C4935A]/50 transition duration-300 cursor-default"
           >
             {skill}
           </div>

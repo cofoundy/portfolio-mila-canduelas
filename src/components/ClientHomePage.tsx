@@ -5,6 +5,7 @@ import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 
 import Contact from "./Contact";
 import Cursor from "./Cursor";
+import Education from "./Education";
 import Intro from "./Intro";
 import MainProjects from "./MainProjects";
 import Skills from "./Skills";
@@ -34,6 +35,7 @@ export default function ClientHomePage() {
         <Skills />
         <MainProjects />
         <SmallProjects />
+        <Education />
         <Contact />
       </div>
     </LocomotiveScrollProvider>

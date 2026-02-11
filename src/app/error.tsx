@@ -20,32 +20,32 @@ export default function Error({
   return (
     <div className="flex items-center justify-center min-h-screen flex-col bg-black text-white p-8">
       <div className="text-center max-w-md">
-        <h1 className="text-2xl font-bold mb-4">¡Ups! Algo salió mal</h1>
+        <h1 className="text-2xl font-bold mb-4">Something went wrong</h1>
 
         {isNetworkError ? (
           <p className="text-gray-300 mb-6">
-            Parece que hay un problema de conexión. Por favor verifica tu
-            conexión a internet e intenta de nuevo.
+            There seems to be a connection issue. Please check your internet
+            connection and try again.
           </p>
         ) : (
           <p className="text-gray-300 mb-6">
-            Ocurrió un error inesperado al cargar el portafolio.
+            An unexpected error occurred while loading the portfolio.
           </p>
         )}
 
         <div className="space-y-3">
           <button
             onClick={() => reset()}
-            className="w-full px-6 py-3 bg-white text-black font-medium rounded-md hover:bg-gray-200 transition-colors"
+            className="w-full px-6 py-3 bg-[#C4935A] text-white font-medium rounded-md hover:bg-[#D4A36A] transition-colors"
           >
-            Reintentar
+            Try Again
           </button>
 
           <button
             onClick={() => window.location.reload()}
             className="w-full px-6 py-3 border border-white text-white font-medium rounded-md hover:bg-white hover:text-black transition-colors"
           >
-            Recargar Página
+            Reload Page
           </button>
         </div>
 
