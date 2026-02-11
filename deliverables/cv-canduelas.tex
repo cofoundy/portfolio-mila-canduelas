@@ -1,0 +1,158 @@
+% Harvard-Format Professional CV — Mila Canduelas Rios
+% Compile with: xelatex cv-canduelas.tex
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.5in, top=0.4in, bottom=0.4in]{geometry}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+% --- Fonts (macOS system fonts — always available) ---
+\setmainfont{Times New Roman}
+\setsansfont{Helvetica Neue}
+
+% --- Colors (subtle, Harvard-appropriate) ---
+\definecolor{headrule}{HTML}{2c3e50}
+\definecolor{linkblue}{HTML}{1a5276}
+
+% --- Hyperlinks ---
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue, pdfborder={0 0 0}}
+
+% --- Section Formatting (Harvard style: centered, bold, with rules) ---
+\titleformat{\section}
+  {\normalsize\bfseries\centering}
+  {}
+  {0em}
+  {\vspace{-0.3em}\hrulefill\quad}[\quad\hrulefill\vspace{-0.3em}]
+\titlespacing{\section}{0pt}{0.4em}{0.2em}
+
+% --- List Formatting (tight bullets) ---
+\setlist[itemize]{nosep, left=0pt, label=\textbullet, itemsep=0pt, topsep=1pt}
+
+% --- No page numbers ---
+\pagestyle{empty}
+
+% --- Custom Commands ---
+\newcommand{\entry}[4]{%
+  \noindent\textbf{#1} \hfill #2 \par\nopagebreak
+  \textit{#3} \hfill \textit{#4} \par\nopagebreak
+}
+
+\begin{document}
+
+% ============================================
+% HEADER
+% ============================================
+\begin{center}
+  {\Large\bfseries Milagros ``Mila'' Canduelas Rios} \\[3pt]
+  {\small
+  \faIcon{map-marker-alt}\enspace Cardiff, Wales, UK
+  \quad\faIcon{envelope}\enspace \href{mailto:warmipakunkaart@outlook.com}{warmipakunkaart@outlook.com}
+  \quad\faIcon{globe}\enspace \href{https://warmipakunk.art/}{warmipakunk.art}
+  \\[2pt]
+  \faIcon{linkedin}\enspace \href{https://www.linkedin.com/in/mila-canduelas-rios-085661a3/}{linkedin.com/in/mila-canduelas-rios}
+  \quad\faIcon{instagram}\enspace \href{https://www.instagram.com/warmipa_kunkan_art/}{@warmipa\_kunkan\_art}
+  }
+\end{center}
+
+\vspace{-0.5em}
+\noindent\rule{\textwidth}{0.8pt}
+\vspace{-0.6em}
+
+% ============================================
+% ARTISTIC PRACTICE
+% ============================================
+\section{Artistic Practice}
+
+\entry{Warmipa Kunkan Art}{Cardiff, Wales, UK}{Independent Visual Artist}{2023 -- Present}
+\begin{itemize}
+  \item Exhibited in 20+ juried and open exhibitions across Wales, Italy, and Peru over a 30-year artistic career
+  \item Created multidisciplinary work spanning painting, sculpture, weaving, encaustic, and cyanotype, selling through Saatchi Art and private commissions
+  \item Produced socially engaged installations addressing forced sterilisations in Peru, exhibited at Turner House, G39, and Made in Roath
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Llanover Hall Art Centre}{Cardiff, Wales, UK}{Artist-in-Residence}{2023 -- 2024}
+\begin{itemize}
+  \item Led experimental workshops in drawing, pottery, and painting, engaging community members across all ages
+\end{itemize}
+\vspace{0.2em}
+
+\entry{MilaSelsh Art Ceramic Studio}{Lima, Peru}{Founder \& Instructor}{2004 -- 2009}
+\begin{itemize}
+  \item Founded ceramic workshop teaching casting, glazing, firing, and clay modelling to children ages 7--12
+\end{itemize}
+\vspace{0.2em}
+
+\entry{Independent Fashion Designer}{Lima \& Pucallpa, Peru}{Designer \& Workshop Owner}{1992 -- 2001}
+\begin{itemize}
+  \item Operated custom clothing manufacturing workshop for 9 years, earning Recognition and Honour to Merit at the 1st Regional Contest of Amazonian Crafts (1997)
+\end{itemize}
+\vspace{0.15em}
+
+% ============================================
+% SELECTED EXHIBITIONS
+% ============================================
+\section{Selected Exhibitions}
+
+{\small
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{2025} & Turner House Open (Penarth) \,$\cdot$\, Made in Roath \,$\cdot$\, Insole Court Contest (Hon.\ Mention) \,$\cdot$\, ``Broken Lives / Vidas Rotas'' installation \\[1pt]
+\textbf{2024} & G39 OPEN (Cardiff) \,$\cdot$\, Turner House \,$\cdot$\, Llanover Hall Autumn \,$\cdot$\, Made in Roath \,$\cdot$\, Cardiff Made Winter \\[1pt]
+\textbf{2023} & Lansio Degree Show, Cardiff Met \,$\cdot$\, Jacob's Art Gallery Fusion \,$\cdot$\, Turner House \,$\cdot$\, Llanover Hall Autumn \\[1pt]
+\textbf{2021} & Portrait Against Cancer --- Sacripante Gallery, Rome, Italy \\[1pt]
+\textbf{1997--2003} & ``La Serpiente de Agua'' \,$\cdot$\, Hatun Raymi Festival \,$\cdot$\, Expo Adventure Peru \,$\cdot$\, Yarinacocha Fair \\
+\end{tabularx}
+}
+\vspace{0.1em}
+
+% ============================================
+% AWARDS & RECOGNITION
+% ============================================
+\section{Awards \& Recognition}
+
+{\small
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{2025} & Insole Court Mansion Contest --- Honourable Mention \\[1pt]
+\textbf{2022} & Helen Gregory Memorial Trust Awards Bursary --- Cardiff Metropolitan University \\[1pt]
+\textbf{2022} & Santander Scholarships / Global Opportunities --- Cultural exchange, Lyon, France \\[1pt]
+\textbf{1997} & 1st Regional Contest of Amazonian Crafts --- Recognition \& Honour to Merit, Ucayali, Peru \\[1pt]
+\textbf{1991} & 1st National Fashion Design Contest --- 6th Place, Lima, Peru \\
+\end{tabularx}
+}
+\vspace{0.1em}
+
+% ============================================
+% EDUCATION
+% ============================================
+\section{Education}
+
+\entry{Cardiff Metropolitan University}{Wales, UK}{BA (Hons) Fine Art --- First Class Honours}{2020 -- 2023}
+\vspace{0.15em}
+\entry{The Interior Design Institute}{UK}{Interior Design}{2013}
+\vspace{0.15em}
+\entry{CETPRO Carlos Cueto Fernandini}{Lima, Peru}{Pottery \& Ceramics}{2003}
+\vspace{0.15em}
+\entry{Madeleine Vionnet Fashion School}{Lima, Peru}{Fashion Design}{1988 -- 1991}
+\vspace{0.1em}
+
+% ============================================
+% SKILLS & ADDITIONAL
+% ============================================
+\section{Skills \& Additional}
+
+{\small
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Artistic Media:} & Painting (acrylic, watercolour, oil, ink), Sculpture (ceramic, porcelain, plaster, wood), Weaving, Drawing (soft pastel, charcoal), Engraving, Encaustic, Cyanotype, Installation \\[1pt]
+\textbf{Design \& Tools:} & Fashion Design, Interior Design, Photography, Adobe Photoshop, WordPress \\[1pt]
+\textbf{Languages:} & Spanish (native), English (professional working proficiency) \\[1pt]
+\textbf{Affiliations:} & Art Life Society Group (2023--present), Saatchi Art (active gallery artist) \\
+\end{tabularx}
+}
+
+\end{document}

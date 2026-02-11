@@ -6,7 +6,7 @@ export const PROJECTS = [
       "Selected for the prestigious Turner House Open Exhibition in Penarth, Wales. Exhibited 'Forced Sterilisations, Justice and Reparation, Peru 1990' — a powerful soft pastel on cardboard work (82×58cm) addressing historical injustices in Peru.",
     demo: "https://turnerhouse.wales/open25/",
     technologies: ["soft pastel", "social art"],
-    image: "/artwork/turner-house-2025.jpg",
+    image: "/artwork/social-art.jpg",
   },
   {
     id: "exhibition-2",
@@ -15,7 +15,7 @@ export const PROJECTS = [
       "Second consecutive year at Cardiff Made Gallery's Winter Arts & Crafts Exhibition. Showcased 'Ceramica Peruana Moche' and 'Cosmovision' — watercolour and ink pieces bridging pre-Columbian craft traditions with contemporary expression.",
     demo: "https://cardiffmade.com/",
     technologies: ["watercolour", "ink", "ceramics"],
-    image: "/artwork/cardiff-made-2024.jpg",
+    image: "/artwork/painting.jpg",
   },
   {
     id: "exhibition-3",
@@ -24,7 +24,7 @@ export const PROJECTS = [
       "Annual community arts festival in Cardiff. Exhibited a series exploring the spiritual relationship between humans and the natural world through encaustic and cyanotype techniques — ancient processes meeting contemporary themes.",
     demo: "https://madeinroath.com/",
     technologies: ["encaustic", "cyanotype"],
-    image: "/artwork/made-in-roath-2024.jpg",
+    image: "/artwork/engraving.jpg",
   },
   {
     id: "exhibition-4",
@@ -33,7 +33,7 @@ export const PROJECTS = [
       "Selected for the G39 OPEN at one of Cardiff's most important contemporary art spaces. A juried exhibition showcasing emerging and established artists working across all media in Wales.",
     demo: "https://g39.org/",
     technologies: ["mixed media"],
-    image: "/artwork/g39-open-2024.jpg",
+    image: "/artwork/extra-artwork.jpg",
   },
   {
     id: "exhibition-5",
@@ -42,7 +42,7 @@ export const PROJECTS = [
       "Group exhibition featuring emerging Welsh artists. Explored the fusion of contemporary artistic expression with ancient Peruvian visual traditions through sculpture and textile weaving.",
     demo: "https://warmipakunk.art/",
     technologies: ["sculpture", "weaving"],
-    image: "/artwork/jacobs-fusion-2023.jpg",
+    image: "/artwork/sculpture.jpg",
   },
   {
     id: "exhibition-6",
@@ -51,6 +51,6 @@ export const PROJECTS = [
       "BA Fine Art graduation exhibition at Cardiff Metropolitan University. Presented a powerful installation addressing the Peru political crisis and protest deaths — three years of artistic exploration culminating in a deeply personal statement on identity, heritage, and indigenous voices.",
     demo: "https://warmipakunk.art/",
     technologies: ["installation", "painting", "sculpture"],
-    image: "/artwork/degree-show-2023.jpg",
+    image: "/artwork/drawing.jpg",
   },
 ];

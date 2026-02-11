@@ -2,16 +2,8 @@
 
 import { BiLinkExternal } from "react-icons/bi";
 import { FC } from "react";
+import Image from "next/image";
 import { PROJECTS } from "../data/projects";
-
-const GRADIENTS = [
-  'linear-gradient(135deg, #4A6B7C 0%, #1A2B3D 100%)',
-  'linear-gradient(135deg, #6B7C4A 0%, #2C3A1A 100%)',
-  'linear-gradient(135deg, #7C4A5D 0%, #3D1A2B 100%)',
-  'linear-gradient(135deg, #4A5D7C 0%, #1A2B3D 100%)',
-  'linear-gradient(135deg, #8B6B4A 0%, #3D2B1A 100%)',
-  'linear-gradient(135deg, #4A7C6B 0%, #1A3D2B 100%)',
-];
 
 const MainProjects: FC = () => {
   return (
@@ -30,17 +22,17 @@ const MainProjects: FC = () => {
           }`}
         >
           <div data-scroll data-scroll-speed="2" className="lg:flex-1">
-            <div
-              className="rounded-[20px] overflow-hidden h-[250px] lg:h-[300px] flex items-center justify-center relative"
-              style={{ background: GRADIENTS[index % GRADIENTS.length] }}
-            >
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-white/10 text-[120px] font-serif leading-none">
-                  {String(index + 1).padStart(2, '0')}
-                </span>
-              </div>
-              <div className="relative z-10 text-center px-6">
-                <span className="text-white/60 text-sm tracking-widest uppercase">
+            <div className="rounded-[20px] overflow-hidden h-[250px] lg:h-[300px] relative group">
+              <Image
+                src={project.image}
+                alt={project.title}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                sizes="(max-width: 1024px) 90vw, 45vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <span className="text-white/80 text-sm tracking-widest uppercase">
                   {project.technologies.join(' · ')}
                 </span>
               </div>
